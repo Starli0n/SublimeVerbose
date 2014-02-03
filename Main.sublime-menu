@@ -1,0 +1,14 @@
+[
+{
+    "caption": "View",
+    "mnemonic": "V",
+    "id": "view",
+    "children":
+    [
+        { "caption": "-", "id": "verbose" },
+        { "command": "verbose_toggle", "caption": "Log Verbose", "checkbox": true },
+        { "command": "verbose_commands_toggle", "caption": "Log Commands", "checkbox": true },
+        { "command": "verbose_input_toggle", "caption": "Log Input", "checkbox": true }
+    ]
+}
+]
