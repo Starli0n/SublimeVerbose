@@ -42,9 +42,9 @@ def ToggleInput():
 class VerboseCommand(sublime_plugin.ApplicationCommand):
     def run(self, log, plugin_name = None):
         if plugin_name:
-            print plugin_name + ": " + log
+            print(plugin_name + ": " + log)
         else:
-            print log
+            print(log)
 
     def is_enabled(self):
         return g_bVerbose
